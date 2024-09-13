@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+
+import React from 'react';
+import Ener from '../src/assets/energy.jpeg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header 
+        className="bg-cover bg-center flex justify-center items-center 
+                  h-[360px] md:h-[480px] lg:h-[720px]"
+        style={{ backgroundImage: `url(${Ener})` }}
+      >
+        <h1 className="text-white text-4xl md:text-4xl lg:text-8xl  font-mono">Wise Energy</h1>
       </header>
     </div>
   );
