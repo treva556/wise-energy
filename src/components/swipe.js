@@ -42,7 +42,7 @@ const Flippings = () => {
   };
 
   return (
-    <div {...handlers} className="mt-5 mb-10">
+    <div {...handlers} className="m-5 rounded-md mb-10  bg-blue-100">
       <p className="text-lg font-bold mb-3">What Our Clients Say</p>
       <p className="text-lg font-bold mb-3">Client Review</p>
 
@@ -50,7 +50,7 @@ const Flippings = () => {
         {contents.slice(currentIndex, currentIndex + 1).map((content, index) => (
           <div
             key={index}
-            className="p-6 rounded shadow-md transition-opacity duration-500 ease-in-out"
+            className=" bg-blue-100 p-6 rounded shadow-md transition-opacity duration-500 ease-in-out"
           >
             {content}
           </div>
