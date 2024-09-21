@@ -44,9 +44,24 @@ function App() {
 
       <div className=' bg-white'>
 
-      <div className='  p-6'>
-        <div className='flex flex-col md:flex-row lg:flex-row justify-center bg-blue-50  '>
+      <div className=' gap-4  p-6'>
+        <div className='flex flex-col md:flex-row lg:flex-row justify-center bg-blue-50 m-2  '>
         <div className=' p-40 bg-blue-50 w-screen'>
+             1.1
+          </div>
+        <div 
+            className='p-40 bg-blue-50 w-screen relative'
+            style={{
+              backgroundImage: `url(${Ener})`,
+              backgroundSize: 'cover', // Ensures the image covers the div entirely
+              backgroundPosition: 'center', // Centers the image within the div
+            }}
+          >
+          </div>
+          </div>
+
+<div className=' m-2 flex flex-col md:flex-row'>
+<div className=' p-40 bg-blue-50 w-screen md:order-last lg:order-last'>
              1.2
           </div>
         <div 
@@ -59,9 +74,10 @@ function App() {
           >
           </div>
           
-        </div>
-        <div className=' flex flex-col md:flex-row lg:flex-row   m-8'>
-        <div className=' p-40 w-screen'>
+       </div>
+      
+       <div className=' m-2 flex flex-col md:flex-row'>
+<div className=' p-40 bg-blue-50 w-screen'>
              1.2
           </div>
         <div 
@@ -72,26 +88,11 @@ function App() {
               backgroundPosition: 'center', // Centers the image within the div
             }}
           >
-            <p className=" text-white text-4xl p-4">1</p>
           </div>
-         
-        </div>
+          
+       </div>
+      
 
-        <div className=' flex flex-col md:flex-row lg:flex-row bg-blue-950 m-8'>
-        <div className=' bg-blue-950 p-40 w-screen'>
-             1.2
-          </div>
-        <div 
-            className='p-40 bg-blue-50 w-screen '
-            style={{
-              backgroundImage: `url(${Ener})`,
-              backgroundSize: 'cover', // Ensures the image covers the div entirely
-              backgroundPosition: 'center', // Centers the image within the div
-            }}
-          >
-          </div>
-         
-        </div>
       </div>
       <h5 className=' font-semibold text-xl '>  Features & Services: </h5>
 
