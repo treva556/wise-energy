@@ -25,7 +25,7 @@ function Calculator() {
   };
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white m-14 border border-blue-950 rounded-lg shadow-md">
+    <div className="max-w-md mx-auto p-6 bg-white my-12 mb-4 border border-blue-950 rounded-lg shadow-md">
       <h2 className="text-2xl font-bold text-center mb-4">Energy Savings Calculator</h2>
       
       <div className="mb-4">

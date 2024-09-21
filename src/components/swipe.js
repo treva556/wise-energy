@@ -42,7 +42,7 @@ const Flippings = () => {
   };
 
   return (
-    <div {...handlers} className="m-5 rounded-md mb-10 py-6  bg-blue-100">
+    <div {...handlers} className="m-5 rounded-md mb-10 py-6 text-black  bg-blue-100">
       <p className="text-lg font-bold mb-3">What Our Clients Say</p>
       <p className="text-lg font-bold mb-3">Client Review</p>
 
